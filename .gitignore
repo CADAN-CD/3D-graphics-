@@ -1,0 +1,62 @@
+# =========================
+# Visual Studio
+# =========================
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Compilación
+# =========================
+
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# =========================
+# Visual Studio / MSBuild
+# =========================
+
+*.pdb
+*.ilk
+*.tlog
+*.log
+
+# =========================
+# Ejecutables
+# =========================
+
+*.exe
+*.dll
+
+# =========================
+# CMake (si lo usas)
+# =========================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# Sistema operativo
+# =========================
+
+.DS_Store
+Thumbs.db
