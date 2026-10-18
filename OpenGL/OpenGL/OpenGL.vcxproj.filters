@@ -48,6 +48,9 @@
     <ClCompile Include="camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Libraries\include\include\glad\glad.h">
@@ -74,6 +77,9 @@
     <ClInclude Include="camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.vert">
@@ -85,6 +91,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\textures\texture.jpg">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\textures\cat.jpg">
       <Filter>Resource Files\textures</Filter>
     </Image>
   </ItemGroup>

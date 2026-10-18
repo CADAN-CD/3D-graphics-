@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="camera.cpp" />
+    <ClCompile Include="cube.cpp" />
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="shaderClass.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="..\Libraries\include\include\glad\glad.h" />
     <ClInclude Include="..\Libraries\include\include\KHR\khrplatform.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="cube.h" />
     <ClInclude Include="EBO.h" />
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="texture.h" />
@@ -158,6 +160,7 @@
     <None Include="default.vert" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\textures\cat.jpg" />
     <Image Include="..\textures\texture.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
